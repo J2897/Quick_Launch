@@ -10,7 +10,7 @@ The Windows 7 DE (Desktop Environment) doesn't have Quick Launch - a feature wid
 
 See the [example.png] [1] image.
 
-This batch script will create a Symbolic Link to your Quick Launch folder. And then, all you have to do is add that Symbolic Link to your taskbar as a new toolbar by following the very simple on-screen instructions. Here the are in case you accidentally close the Command Prompt...
+This batch script will create a Symbolic Link to your Quick Launch folder. And then, all you have to do is add that Symbolic Link to your taskbar as a new toolbar by following the very simple on-screen instructions. Here they are in case you accidentally close the Command Prompt...
 
 		The Quick Launch Symbolic Link has been created.
 
