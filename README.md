@@ -6,7 +6,7 @@ Miss those little icons on your taskbar? Put them back!
 
 *This has been successfully tested on 64-Bit Windows 7.*
 
-The Windows 7 DE (Desktop Environment) doesn't have Quick Launch - a feature widely used in Windows XP - although, when you install a program, many still add icons to the Quick Launch folder.
+The Windows 7 DE (Desktop Environment) doesn't have Quick Launch - a feature widely used in Windows XP - although, when you install a program, many still add shortcuts to the Quick Launch folder.
 
 See the [example.png] [1] image.
 
