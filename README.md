@@ -33,4 +33,4 @@ This batch script will create a Symbolic Link to your Quick Launch folder. And t
 
 		And don't forget to 'Lock the taskbar'. Enjoy! :)
 
-   [1]: https://github.com/J2897/Quick_Launch/example.png
+   [1]: https://github.com/J2897/Quick_Launch/blob/master/example.png
