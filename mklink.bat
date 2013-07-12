@@ -43,7 +43,6 @@ pause
 exit /B 1
 
 :exists
-cls
 echo There's already a %QL% folder in your profile folder:
 echo %USERPROFILE%\%QL%
 echo Please remove the %QL% folder before running this script again.
