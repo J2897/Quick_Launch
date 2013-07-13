@@ -1,17 +1,14 @@
 :: Released under the GNU General Public License version 3 by J2897.
 
 @echo OFF
-cls
 set QL=Quick Launch
 if exist "%USERPROFILE%\%QL%" (goto :exists)
 
 mklink /J "%USERPROFILE%\%QL%" "%APPDATA%\Microsoft\Internet Explorer\%QL%"
-if exist "%USERPROFILE%\%QL%" (goto :created) else (goto :failed)
+echo.
+if not exist "%USERPROFILE%\%QL%" (goto :failed)
 pause
-exit /B 0
 
-:created
-pause
 cls
 echo The %QL% Symbolic Link has been created.
 echo.
@@ -32,19 +29,24 @@ echo.
 echo 	Show Text
 echo 	Show title
 echo.
-echo And don't forget to 'Lock the taskbar'. Enjoy! :^)
+echo And don't forget to 'Lock the taskbar'.
 echo.
 pause
 exit /B 0
 
 :failed
 echo Failed to create the Symbolic Link!
+echo.
 pause
 exit /B 1
 
 :exists
+cls
 echo There's already a %QL% folder in your profile folder:
-echo %USERPROFILE%\%QL%
+echo.
+echo 	%USERPROFILE%\%QL%
+echo.
 echo Please remove the %QL% folder before running this script again.
+echo.
 pause
 exit /B 1
